@@ -6,18 +6,18 @@ let count = 0;
 do {
     minInner = Math.floor(prompt("Введіть мінімальне число (N)"));
     minNumber = minInner;
-    if (Number.isFinite(minNumber) === false || minNumber === 0) {
+    if (Number.isFinite(minNumber) === false) {
         alert("ВВЕДІТЬ ЧИСЛО!!!");
     }
-} while (Number.isFinite(minNumber) === false || minNumber === 0);
+} while (Number.isFinite(minNumber) === false);
 
 do {
     maxInner = Math.floor(prompt("Введіть максимальне число (M)"));
     maxNumber = maxInner;
-    if (Number.isFinite(maxNumber) === false || maxNumber === 0) {
+    if (Number.isFinite(maxNumber) === false) {
         alert("ВВЕДІТЬ ЧИСЛО!!!");
     }
-} while (Number.isFinite(maxNumber) === false || maxNumber === 0);
+} while (Number.isFinite(maxNumber) === false);
 
 let evenOdd = confirm("Пропускати Парні Числа ?");
 
